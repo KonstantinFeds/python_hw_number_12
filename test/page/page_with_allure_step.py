@@ -8,7 +8,7 @@ class Page_text_box_allure_steps:
 
     def open_browser(self):
         with allure.step('Открываем страницу с формой Text box'):
-            browser.open('/')
+            browser.open('https://demoqa.com/text-box')
             return self
 
     def fill_full_name(self, value):

@@ -3,7 +3,7 @@ from allure_commons.types import Severity
 from test.page.page_with_allure_step import Page_text_box_allure_steps
 
 
-def test_with_allure_steps_sending_form(open_browser):
+def test_with_allure_steps_sending_form():
 
     page_text_box = Page_text_box_allure_steps()
 
