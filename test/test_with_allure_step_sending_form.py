@@ -1,6 +1,5 @@
 import allure
 from allure_commons.types import Severity
-
 from test.page.page_with_allure_step import Page_text_box_allure_steps
 
 
